@@ -1,0 +1,42 @@
+{
+    "metrics": {
+        "uniqueTagsAdded": { "value": 3432, "percent": 56.2 },
+        "tagsInstancesAdded": { "value": 3432, "percent": 56.2 },
+        "uniqueTagsDeleted": { "value": 3432, "percent": 56.2 },
+        "tagsInstancesDeleted": { "value": 3432, "percent": 56.2 },
+        "upcChanged": { "value": 3432, "percent": 56.2 }
+    },
+    "charts": {
+        "tagType": {
+            "keys": ["foo" ,"bar" ,"lorem" ,"ipsum"],
+            "added": [123, 1234, 32523, 3234],
+            "deleted": [123, 1234, 32523, 3234]
+        },
+        "dataElements": {
+            "keys": ["foo" ,"bar" ,"lorem" ,"ipsum"],
+            "added": [123, 1234, 32523, 3234],
+            "deleted": [123, 1234, 32523, 3234]
+        },
+        "tags": {
+            "keys": ["foo" ,"bar" ,"lorem" ,"ipsum"],
+            "added": [123, 1234, 32523, 3234],
+            "deleted": [123, 1234, 32523, 3234]
+        }
+    },
+    "products": {
+        "headers": ["foo", "bar", "name", "description"],
+        "values": [
+            [1, 4, "bla", "bla"],
+            [1, 4, "bla", "bla"],
+            [1, 4, "bla", "bla"],
+            [1, 4, "bla", "bla"],
+            [1, 4, "bla", "bla"]
+        ]
+    },
+    "filters": {
+        "tagTypes": ["foo", "bar", "bla"],
+        "tags": ["foo", "bar", "bla"],
+        "products": ["foo", "bar", "bla"],
+        "dataElements": ["foo", "bar", "bla"]
+    }
+}
